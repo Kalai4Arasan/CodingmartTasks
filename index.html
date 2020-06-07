@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ZALORA Singapore: Online Shopping Singapore | Fashion Online</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -61,7 +61,7 @@
     right: 20px;
     }
     /*Hover DropDown*/
-    body > div.row > div.col-md-10.col-sm-4.ml-4.mt-2 > ul > li > a{
+    body > div.row > div.col-md-10.ml-4.mt-2 > ul > li > a{
         color:black;
     }
     body > footer > div.row.mt-2 > div > a{
@@ -87,7 +87,7 @@
         </button>
       
         <div style="background-color: black;font-size:14px;letter-spacing: 1px;" class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item ">
               <a style="margin-left: 15px;"  class="nav-link text-white" href="#">WOMEN</a>
             </li>
@@ -107,29 +107,31 @@
                     <input style="margin-left: 15px;width:630px;height: 30px;" class="mt-1" type="text" placeholder="Search for products, trends and brands">
                     <i style="position:relative;right:28px;font-size: 20px;text-align: center;" class="fa fa-search"></i>
             </li>
-            <li class="nav-item  ml-2 mt-1">
+            </ul>
+        
+            <li style="display: inline;"  class="nav-item ml-3 mt-1">
                     <i style="font-size:25px;height: 24px;width: 24px;" class="text-white fa fa-user-o" data-toggle="popover" data-placement="bottom" ></i>
             </li>
-            <li class="nav-item  ml-2 mt-1">
+            <li style="display: inline;" class="nav-item ml-1  mt-1">
                 <i style="font-size:25px;height: 24px;width: 24px;" class="text-white fa fa-heart-o ml-1"></i>
             </li>
-            <li class="nav-item  ml-2 mt-1">
+            <li style="display: inline;" class="nav-item  ml-1 mt-1">
                <i style="font-size:25px;" class="text-white fa fa-shopping-bag ml-1"></i>
             </li>
-        </ul>
+            
         </div>
       </nav>
 
       <!--Container Body -->
       <div class="row">
         <div class="col-md-1 col-sm-1"></div>
-        <div class="col-md-10 col-sm-4 ml-4 mt-2">
-            <ul style="font-size: 12px;" >
-                <li style="display: inline;padding:10px;"><a  onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-shopping-cart"></i> ZALORA NOW: UNLIMITED EXPRESS DELIVERY</a></li>
-                <li style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-exchange" aria-hidden="true"></i> DAYS FREE RETURNS</a></li>
-                <li style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-free-code-camp"></i> FREE DELIVERY ABOVE $50</a></li>
-                <li style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-heart"></i> COVID-19 DONATION</a></li>
-                <li style="display: inline;padding:10px;"><button style="font-size: 12px;" class="btn btn-secondary">DOWNLOAD & GET 25% OFF <i style="font-size:15px;" class="fa fa-mobile"></i></button></li>
+        <div class="col-md-10 ml-4 mt-2">
+            <ul class="row"  style="font-size: 12px;" >
+                <li class="col-sm-2 col-md-2" style="display: inline;padding:10px;"><a  onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-shopping-cart"></i> ZALORA NOW: UNLIMITED EXPRESS DELIVERY</a></li>
+                <li class="col-sm-2 col-md-2" style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-exchange" aria-hidden="true"></i> DAYS FREE RETURNS</a></li>
+                <li class="col-sm-2 col-md-2" style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-free-code-camp"></i> FREE DELIVERY ABOVE $50</a></li>
+                <li class="col-sm-2 col-md-2" style="display: inline;padding:10px;"><a onMouseOver="this.style.color='#6c757d';"  onMouseOut="this.style.color='black';" href=""><i class="fa fa-heart"></i> COVID-19 DONATION</a></li>
+                <li class="col-sm-2 col-md-4" style="display: inline;padding:10px;"><button style="font-size: 12px;" class="btn btn-secondary">DOWNLOAD & GET 25% OFF <i style="font-size:15px;" class="fa fa-mobile"></i></button></li>
               </ul>
         </div>
         <div class="col-md-1 col-sm-1"></div>
@@ -137,21 +139,23 @@
     
       <!--First Image Container-->
       <div class="row mb-4">
-        <div class="col-sm-1 col-md-1"></div>
-        <div style="margin-left:4%;" class="col-sm-2 col-md-3"><img src="./Files/img1.jpg" alt="" srcset=""></div>
-        <div class="col-sm-2 col-md-3"><img src="./Files/img2.jpg" alt="" srcset=""></div>
-        <div class="col-sm-2 col-md-3"><img src="./Files/img3.jpg" alt="" srcset=""></div>
-        <div class="col-sm-1 col-md-2"></div>
+        <div class=" col-md-1"></div>
+        <ul style=" " class="col-md-10 ">
+            <li style="display: inline;" class="col-sm-6 col-md-2 "><img class="img-thumbnail border-white" src="./Files/img1.jpg" alt="" srcset=""></li>
+            <li style="display: inline;" class="col-sm-6 col-md-2 "><img class="img-thumbnail border-white" src="./Files/img2.jpg" alt="" srcset=""></li>
+            <li style="display: inline;" class="col-sm-6 col-md-2 "><img class="img-thumbnail border-white" src="./Files/img3.jpg" alt="" srcset=""></li>
+        </ul>
+        <div class=" col-md-2"></div>
       </div>
 
       <!--Rest Of The Images-->
       <div class="row">
-            <div class="col-md-1 col-sm-1"></div>
-            <div class="col-md-10 col-sm-4 ml-4 mt-2">
-                <img class="mb-4" style="margin-left:35px;"  src="./Files/img4.jpg" alt="" srcset="">
-                <img class="mb-4"  style="margin-left:35px;"  src="./Files/img5.jpg" alt="" srcset="">
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-10 col-sm-1 mt-2">
+                <img class="mb-4 img-thumbnail border-white" style="margin-left:4%;"  src="./Files/img4.jpg" alt="" srcset="">
+                <img class="mb-4 img-thumbnail border-white"  style="margin-left:4%;"  src="./Files/img5.jpg" alt="" srcset="">
             </div>
-            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-1"></div>
         </div>
         
         <!--Draggable Cards To show the Products-->
@@ -159,139 +163,141 @@
         <h3 style="font-weight: bold;" class="text-center mt-4 mb-4">Lets Get You Started</h3>
 
                 <!--Carousel Wrapper-->
-            <div style="height: 20%;" id="multi-item-example" class="carousel slide carousel-multi-item mb-4" data-ride="carousel">
-                <!--Controls-->
-                <div class="controls-top">
-                    <div class="row">
-                        <div style="margin-top: 10%;position: relative;left: 13%;font-size: 30px;" class="col-md-2"><a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="text-dark fa fa-chevron-left"></i></a></div>
-                        <div class="col-md-8">
-                            <!--Indicators-->
-                <ol class="carousel-indicators">
-                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <div  style="height: 20%;" id="multi-item-example" class="carousel slide carousel-multi-item mb-4" data-ride="carousel">
+                    <!--Controls-->
+                    <div  class="controls-top">
+                        <div  class="row">
+                            <div style="margin-top: 10%;position: relative;left: 13%;font-size: 30px;" class="col-md-2"><a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="text-dark fa fa-chevron-left"></i></a></div>
+                            <div  class="col-md-8">
+                                <!--Indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                                    
+                                </ol>
+                                <!--/.Indicators-->
+                                <!--Slides-->
+                                <div class="carousel-inner text-center"  role="listbox">
+                                
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                
+                                    <div class="col-md-3" style="float:left">
+                                    <div style="border-color: white;" class="card mb-2 ">
+                                        <img height=206 weight=104 class="card-img-top img-thumbnail border-white p-2"
+                                            src="./Files/c1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">High Low Hem Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$124.9</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $120.1</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Cuffed Sleeves Button Down Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$34.9</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $20.90</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Square Neck Fit And Flare Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$44.0</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $30.4</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3" style="float:left">
+                                    <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c4.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Button Detail Sheath Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$113.9</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $122</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    </div>
+                                    <!--/.First slide-->
+                                    <!--Second slide-->
+                                    <div class="carousel-item">
+                                
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c5.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Training Tank Top</h6>
+                                            <p style="font-weight: bold;" class="card-text">$342.9</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $320</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c6.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Pleated Skirt Sleeveless Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$432</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $420</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c7.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Eyelet Panel Fit And Flare Dress</h6>
+                                            <p style="font-weight: bold;" class="card-text">$65</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $30</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3" style="float:left">
+                                        <div style="border-color: white;" class="card mb-2">
+                                        <img class="card-img-top img-thumbnail border-white p-2" height=206 weight=104
+                                            src="./Files/c8.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Alberta Crop T-Shirt</h6>
+                                            <p style="font-weight: bold;" class="card-text">$39</p>
+                                            <p style="font-weight: bold;color: red;" class="card-text">now $10</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                
+                                    </div>
+                                </div>
+                           </div>
+                        <div style="margin-top: 10%;font-size: 30px;" class="col-md-2"><a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="text-dark fa fa-chevron-right"></i></a></div>
+                        </div>
+                    </div>
                     
-                </ol>
-                <!--/.Indicators-->
-                <!--Slides-->
-                <div class="carousel-inner text-center" role="listbox">
-                
-                    <!--First slide-->
-                    <div class="carousel-item active">
-                
-                    <div class="col-md-3" style="float:left">
-                    <div style="border-color: white;" class="card mb-2 ">
-                        <img height=206 weight=104 class="card-img-top"
-                            src="./Files/c1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">High Low Hem Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$124.9</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $120.1</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Cuffed Sleeves Button Down Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$34.9</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $20.90</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Square Neck Fit And Flare Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$44.0</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $30.4</p>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-3" style="float:left">
-                    <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Button Detail Sheath Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$113.9</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $122</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    </div>
-                    <!--/.First slide-->
-
-                
-                    <!--Second slide-->
-                    <div class="carousel-item">
-                
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c5.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Training Tank Top</h6>
-                            <p style="font-weight: bold;" class="card-text">$342.9</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $320</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c6.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Pleated Skirt Sleeveless Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$432</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $420</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c7.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Eyelet Panel Fit And Flare Dress</h6>
-                            <p style="font-weight: bold;" class="card-text">$65</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $30</p>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-3" style="float:left">
-                        <div style="border-color: white;" class="card mb-2">
-                        <img class="card-img-top" height=206 weight=104
-                            src="./Files/c8.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="card-title">Alberta Crop T-Shirt</h6>
-                            <p style="font-weight: bold;" class="card-text">$39</p>
-                            <p style="font-weight: bold;color: red;" class="card-text">now $10</p>
-                        </div>
-                        </div>
-                    </div>
-                
-                    </div>
                 </div>
-                </div>
-                    <div style="margin-top: 10%;font-size: 30px;" class="col-md-2"><a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="text-dark fa fa-chevron-right"></i></a></div>
-                    </div>
-                </div>
-                
-            </div>
 
     <!--Feature Brands-->
-    <h3 style="font-weight: bold;" class="text-center mt-4 mb-4">Featured Brands</h3>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-4"><h3 style="font-weight: bold;" class="mt-4 mb-4">Featured Brands</h3></div>
+        <div class="col-md-4"></div>
+    </div>
     <div class="row mb-4">
         <div class="col-sm-1 col-md-1"></div>
         <div style="margin-left:6%;" class="col-sm-1 col-md-1"><img src="./Files/b1.jpg" alt="" srcset=""></div>
@@ -360,14 +366,10 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
     <!--Footer Part-->
     <footer style="margin-top:10%;color: #6d6e6e;" class="container">
-        <!--Brands and Searches-->
-        <div class="row">
-            <div class="col-md-6"><h6 style="letter-spacing: 1.9px;font-weight: bold;font-size: 16px;">TOP BRANDS</h6></div>
-            <div class="col-md-6"><h6 style="letter-spacing: 1.9px;font-weight: bold;font-size: 16px;">TOP SEARCHES</h6></div>
-        </div>
 
         <div class="row mt-2 mb-4">
             <div class="col-md-2">
+                <h6 style="letter-spacing: 1.9px;font-weight: bold;font-size: 16px;">TOP BRANDS</h6><br>
                 <a href="">Abercrombie & Fitch</a><br>
                 <a href="">adidas</a><br>
                 <a href="">ALDO</a><br>
@@ -382,6 +384,8 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
             </div>
             <div class="col-md-2">
+                <br>
+                <br>
                 <a href="">CRUMPLER</a><br>
                 <a href="">Dr. Martens</a><br>
                 <a href="">FILA</a><br>
@@ -396,6 +400,8 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
             </div>
             <div class="col-md-2">
+                <br>
+                <br>
                 <a href="">gucci</a><br>
                 <a href="">Guess</a><br>
                 <a href="">Her Jewellery</a><br>
@@ -410,6 +416,7 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
             </div>
             <div class="col-md-2">
+                <h6 style="letter-spacing: 1.9px;font-weight: bold;font-size: 16px;">TOP SEARCHES</h6><br>
                 <a href="">T-Shirts</a><br>
                 <a href="">Shoes</a><br>
                 <a href="">Cardigan</a><br>
@@ -424,6 +431,8 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
             </div>
             <div class="col-md-2">
+                <br>
+                <br>
                 <a href="">Beauty</a><br>
                 <a href="">Makeup Brush</a><br>
                 <a href="">Korean Fashion</a><br>
@@ -439,6 +448,8 @@ With the widest selection of fashion clothing you can possibly find, and outstan
 
             </div>
             <div class="col-md-2">
+                <br>
+                <br>
                 <a href="">Sports</a><br>
                 <a href="">Watches</a><br>
                 <a href="">Jumpsuit</a><br>
@@ -553,19 +564,19 @@ With the widest selection of fashion clothing you can possibly find, and outstan
             </div>
             <div style="margin-top: 20%;">
                 <h6 >DOWNLOAD OUR APP NOW</h6>
-                <img src="./Files/download.png" height=50 width="398" alt="">
+                <img class="img-thumbnail bg-dark border-dark" src="./Files/download.png" height=50 width="398" alt="">
             </div>
         </div>
-        <div class="col-md-3" style="margin-left:4%;">
-            <p>
+        <div class="col-md-3 col-sm-1 " style="margin-left:4%;">
+            <p class="mt-4">
                 Any question? Let us help you. <br>
                 Contact  |   Help
             </p>
         </div>
         <div class="col-md-3"></div>
         <div class="col-md-2"></div>
-        <div class="col-md-3">
-            <p>              
+        <div class="col-md-3 col-sm-1">
+            <p class="mt-4">              
                 About  |   Privacy  |   Terms of Service <br>
                 © 2012, 2020 Zalora
             </p>
